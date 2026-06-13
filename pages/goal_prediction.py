@@ -36,11 +36,11 @@ finance_df = load_data()
 # ==========================================================
 
 goal_model = joblib.load(
-    "https://huggingface.co/Kushvanth05/AI-Finance-Advisor-Models/resolve/main/models/goal_prediction_model.pkl"
+    "models/goal_prediction_model.pkl"
 )
 
 goal_scaler = joblib.load(
-    "https://huggingface.co/Kushvanth05/AI-Finance-Advisor-Models/resolve/main/scalers/goal_scaler.pkl"
+    "scalers/goal_scaler.pkl"
 )
 
 # ==========================================================

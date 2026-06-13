@@ -36,11 +36,11 @@ paysim_df = load_data()
 # ==========================================================
 
 iso_model = joblib.load(
-    "https://huggingface.co/Kushvanth05/AI-Finance-Advisor-Models/resolve/main/models/isolation_forest_model.pkl"
+    "models/isolation_forest_model.pkl"
 )
 
 anomaly_scaler = joblib.load(
-    "https://huggingface.co/Kushvanth05/AI-Finance-Advisor-Models/resolve/main/scalers/anomaly_scaler.pkl"
+    "scalers/anomaly_scaler.pkl"
 )
 
 # ==========================================================

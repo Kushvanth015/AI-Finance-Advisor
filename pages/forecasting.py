@@ -43,7 +43,7 @@ finance_df = load_data()
 try:
 
     xgb_model = joblib.load(
-        "https://huggingface.co/Kushvanth05/AI-Finance-Advisor-Models/resolve/main/models/expense_xgb_model.pkl"
+        "models/expense_xgb_model.pkl"
     )
 
     model_loaded = True

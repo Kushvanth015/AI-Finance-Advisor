@@ -36,7 +36,7 @@ paysim_df = load_data()
 # ==========================================================
 
 fraud_model = joblib.load(
-    "https://huggingface.co/Kushvanth05/AI-Finance-Advisor-Models/resolve/main/models/fraud_xgb_model.pkl"
+    "models/fraud_xgb_model.pkl"
 )
 
 # ==========================================================

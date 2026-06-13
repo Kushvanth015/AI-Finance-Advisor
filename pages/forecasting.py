@@ -156,7 +156,7 @@ expense_ts = (
     .groupby(
         pd.Grouper(
             key="date",
-            freq="M"
+            freq="ME"
         )
     )
 
@@ -328,7 +328,7 @@ future_dates = pd.date_range(
 
     periods=12,
 
-    freq="M"
+    freq="ME"
 
 )
 

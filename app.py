@@ -263,7 +263,7 @@ monthly_expense = (
     .groupby(
         pd.Grouper(
             key="date",
-            freq="M"
+            freq="ME"
         )
     )
 

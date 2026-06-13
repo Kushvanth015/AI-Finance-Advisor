@@ -1,7 +1,8 @@
+from utils.load_models import *
+import joblib
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 import plotly.graph_objects as go
 import plotly.express as px
 

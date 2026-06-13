@@ -1,9 +1,4 @@
-import os
-
-if not os.path.exists(
-    "models/isolation_forest_model.pkl"
-):
-    import download_models
+from utils.load_models import *
 
 import streamlit as st
 import pandas as pd

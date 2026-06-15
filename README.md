@@ -528,7 +528,15 @@ AI-Finance-Advisor/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Finance-Advisor.git
+git clone https://github.com/kushvantho15
+
+https://github.com/user-attachments/assets/05525274-417f-4853-85ee-d99df75e4a76
+
+
+
+
+
+/AI-Finance-Advisor.git
 ```
 
 ### Navigate to Project Folder
